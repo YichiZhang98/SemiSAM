@@ -19,7 +19,7 @@ Under construction. Coming soon.
 If you find this paper useful, please consider citing:
 ```
 @article{SemiSAM,
-  title={SemiSAM: Exploring SAM for Enhancing Semi-Supervised Medical Image Segmentation with Extremely Limited Annotations},
+  title={SemiSAM: Enhancing Semi-Supervised Medical Image Segmentation via SAM-Assisted Consistency Regularization},
   author={Zhang, Yichi and Yang, Jin and Liu, Yuchen and Cheng, Yuan and Qi, Yuan},
   journal={arXiv preprint arXiv:2312.06316},
   year={2023}
