@@ -2,8 +2,6 @@
 
 Official repository of BIBM'24 paper "SemiSAM: Enhancing Semi-Supervised Medical Image Segmentation via SAM-Assisted Consistency Regularization".
 
-Under construction. Coming soon.
-
 
 ## Introduction
 
@@ -18,16 +16,15 @@ Under construction. Coming soon.
 git clone https://github.com/YichiZhang98/SemiSAM
 cd SemiSAM
 ```
-2. Data & Checkpoint preparation.
-Put the data in `data/2018LA_Seg_Training Set` and SAM checkpoint in `ckpt/sam_med3d.pth`.
+2. Put the data in `data/2018LA_Seg_Training Set` and SAM checkpoint in `ckpt/sam_med3d.pth`.
 
-5. Train
+3. Train the model
 ```
 cd code
 python train_LA_semisam_mt.py
 ```
 
-4. Test
+4. Test the model
 ```
 python test_LA.py
 ```
@@ -37,12 +34,12 @@ python test_LA.py
 
 If you find this paper useful, please consider citing:
 ```
-@article{SemiSAM,
+@inproceedings{SemiSAM,
   title={SemiSAM: Enhancing Semi-Supervised Medical Image Segmentation via SAM-Assisted Consistency Regularization},
   author={Zhang, Yichi and Yang, Jin and Liu, Yuchen and Cheng, Yuan and Qi, Yuan},
-  journal={arXiv preprint arXiv:2312.06316},
-  year={2023}
+  booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  year={2024}
 }
 ```
 
-* This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT) and [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D). We thank all the authors for their contribution. 
+* Our code is adapted from [UA-MT](https://github.com/yulequan/UA-MT) and [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D). We thank all the authors for their contribution. 
