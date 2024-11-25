@@ -13,6 +13,25 @@ Under construction. Coming soon.
 
 ## :computer: Usage
 
+1. Clone the repo
+```
+git clone https://github.com/YichiZhang98/SemiSAM
+cd SemiSAM
+```
+2. Data & Checkpoint preparation.
+Put the data in `data/2018LA_Seg_Training Set` and SAM checkpoint in `ckpt/sam_med3d.pth`.
+
+5. Train
+```
+cd code
+python train_LA_semisam_mt.py
+```
+
+4. Test
+```
+python test_LA.py
+```
+
 
 ## :books: Citation
 
@@ -25,3 +44,5 @@ If you find this paper useful, please consider citing:
   year={2023}
 }
 ```
+
+* This code is adapted from [UA-MT](https://github.com/yulequan/UA-MT) and [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D). We thank all the authors for their contribution. 
