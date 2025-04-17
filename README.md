@@ -26,12 +26,12 @@ Our implementation is based on PyTorch 1.14.0, CUDA 11.8 and Python 3.8. Some im
 
 ### Pre-trained Weights of Generalist Models
 
-The current version supports three generalist models for training: SAM-Med3D and SAM-Med3D-turbo as universal medical generalist models, and SegAnyPET as PET modality-specific generalist model. The pre-trained weights can be accessed from [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D) and [SegAnyPET](https://github.com/uni-medical/SAM-Med3D). Put the checkpoint in `ckpt/[model].pth` for usage in the training procedure.
+The current version supports three generalist models for training: SAM-Med3D and SAM-Med3D-turbo as universal medical generalist models, and SegAnyPET as PET modality-specific generalist model. The pre-trained weights can be accessed from [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D) and [SegAnyPET](https://github.com/YichiZhang98/SegAnyPET). Put the checkpoint in `ckpt/[model].pth` for usage in the training procedure.
 
 
 ### Data Preparation
 
-The processed dataset used in this work can be accessed refer to [LA](https://github.com/yulequan/UA-MT) for SemiSAM and [BraTS19](https://github.com/HiLab-git/SSL4MIS/tree/master/data/BraTS2019) for SemiSAM+. Put the data in `data/[name]` for usage. The `[code/code_semisam+]/dataloaders` folders contain the code for image pre-processing, which can be used for developing on your own dataset.
+The processed dataset used in this work can be accessed refer to [LA](https://github.com/yulequan/UA-MT/tree/master/data) for SemiSAM and [BraTS19](https://github.com/HiLab-git/SSL4MIS/tree/master/data/BraTS2019) for SemiSAM+. Put the data in `data/[name]` for usage. The `[code/code_semisam+]/dataloaders` folders contain the code for image pre-processing, which can be used for developing on your own dataset.
 
 
 
