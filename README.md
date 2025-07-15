@@ -1,6 +1,6 @@
 # SemiSAM  [[paper](https://arxiv.org/pdf/2312.06316.pdf)] / SemiSAM+  [[paper](https://arxiv.org/pdf/2502.20749)] 
 
-Official repository of our paper "SemiSAM: Enhancing Semi-Supervised Medical Image Segmentation via SAM-Assisted Consistency Regularization" (BIBM'24) and "SemiSAM+: Rethinking Semi-Supervised Medical Image Segmentation in the Era of Foundation Models".
+Official repository of our paper "SemiSAM: Enhancing Semi-Supervised Medical Image Segmentation via SAM-Assisted Consistency Regularization" (BIBM'24) and "SemiSAM+: Rethinking Semi-Supervised Medical Image Segmentation in the Era of Foundation Models" (MedIA'25).
 
 
 ![image](https://github.com/YichiZhang98/SemiSAM/blob/main/Highlight.png)
@@ -81,7 +81,7 @@ If you find this paper useful, please consider citing:
 @article{SemiSAM+,
   title={SemiSAM+: Rethinking Semi-Supervised Medical Image Segmentation in the Era of Foundation Models},
   author={Zhang, Yichi and Lv, Bohao and Xue, Le and Zhang, Wenbo and Liu, Yuchen and Fu, Yu and Cheng, Yuan and Qi, Yuan},
-  journal={arXiv preprint arXiv:2502.20749},
+  journal={Medical Image Analysis},
   year={2025}
 }
 
