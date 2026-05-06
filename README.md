@@ -5,7 +5,9 @@ Official repository of our paper "SemiSAM: Enhancing Semi-Supervised Medical Ima
 
 ![image](https://github.com/YichiZhang98/SemiSAM/blob/main/Highlight.png)
 
-## Introduction
+## 👀 Introduction
+
+* **[News]** [26.5] We release **SemiSAM-O1** [[paper](https://arxiv.org/pdf/2604.24109)] [[code](https://github.com/YichiZhang98/SemiSAM-O1)], an updated framework that efficiently learns from only one labeled volume, with **strong performance under extreme low-label setting** and **significantly reduced training cost**.
 
 *  Semi-supervised learning (SSL) has attracted much attention due to its less dependence on acquiring abundant annotations from experts compared to fully supervised methods, which is especially important for medical image segmentation which typically requires intensive pixel/voxel-wise labeling by domain experts. Although semi-supervised methods can improve the performance by utilizing unlabeled data, there are still gaps between fully supervised methods under extremely limited annotation scenarios.
 
@@ -71,20 +73,23 @@ python test_LA.py
 
 If you find this paper useful, please consider citing:
 ```
-@inproceedings{SemiSAM,
-  title={SemiSAM: Enhancing Semi-Supervised Medical Image Segmentation via SAM-Assisted Consistency Regularization},
+@inproceedings{zhang2024semisam,
+  title={SemiSAM: Enhancing semi-supervised medical image segmentation via SAM-assisted consistency regularization},
   author={Zhang, Yichi and Yang, Jin and Liu, Yuchen and Cheng, Yuan and Qi, Yuan},
   booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
-  year={2024}
+  pages={3982--3986},
+  year={2024},
+  organization={IEEE}
 }
 
-@article{SemiSAM+,
-  title={SemiSAM+: Rethinking Semi-Supervised Medical Image Segmentation in the Era of Foundation Models},
+@article{zhang2025semisam+,
+  title={SemiSAM+: rethinking semi-supervised medical image segmentation in the era of foundation models},
   author={Zhang, Yichi and Lv, Bohao and Xue, Le and Zhang, Wenbo and Liu, Yuchen and Fu, Yu and Cheng, Yuan and Qi, Yuan},
   journal={Medical Image Analysis},
-  year={2025}
+  pages={103733},
+  year={2025},
+  publisher={Elsevier}
 }
-
 ```
 
 * Our code is adapted from [UA-MT](https://github.com/yulequan/UA-MT), [SSL4MIS](https://github.com/HiLab-git/SSL4MIS/tree/master/data/BraTS2019) and [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D). We thank all the authors for their contribution. 
